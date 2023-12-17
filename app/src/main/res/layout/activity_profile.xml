@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.profile.ProfileActivity">
+
+    <TextView
+        android:id="@+id/foodify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Meet With Foodify Team"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nisya"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/nisya"
+        app:layout_constraintEnd_toEndOf="@+id/foodify"
+        app:layout_constraintStart_toStartOf="@+id/foodify"
+        app:layout_constraintTop_toBottomOf="@+id/foodify" />
+
+    <TextView
+        android:id="@+id/name_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Anisya Rengkuan 21013022"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/nisya"
+        app:layout_constraintStart_toStartOf="@+id/nisya"
+        app:layout_constraintTop_toBottomOf="@+id/nisya" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/gwen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/gwen"
+        app:layout_constraintEnd_toEndOf="@+id/name_1"
+        app:layout_constraintStart_toStartOf="@+id/name_1"
+        app:layout_constraintTop_toBottomOf="@+id/name_1" />
+
+    <TextView
+        android:id="@+id/name_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Gwent Labada 21013038"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/gwen"
+        app:layout_constraintStart_toStartOf="@+id/gwen"
+        app:layout_constraintTop_toBottomOf="@+id/gwen" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/jesen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/jesen"
+        app:layout_constraintEnd_toEndOf="@+id/name_2"
+        app:layout_constraintStart_toStartOf="@+id/name_2"
+        app:layout_constraintTop_toBottomOf="@+id/name_2" />
+
+    <TextView
+        android:id="@+id/name_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jeasen Tenda 21013032"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/jesen"
+        app:layout_constraintStart_toStartOf="@+id/jesen"
+        app:layout_constraintTop_toBottomOf="@+id/jesen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

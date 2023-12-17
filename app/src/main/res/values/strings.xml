@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyRecipes</string>
+    <string name="cari_makanan">cari makanan</string>
+    <string name="find_food">find food</string>
+    <string name="made_by_anisya_rengkuan_gwent_labada_jeasen_tenda">Anisya Rengkuan, Gwent Labada, Jeasen Tenda</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+
+
+</resources>
